@@ -4,16 +4,23 @@ const cards = [
         id: 1,
         name: "Bulbasaur",
         number: "001/165",
-        image: "path_to_bulbasaur_image.jpg",
+        image: "bulbasaur.jpg",  // Alleen de bestandsnaam
         owned: false
     },
     {
         id: 2,
         name: "Ivysaur",
         number: "002/165",
-        image: "path_to_ivysaur_image.jpg",
+        image: "ivysaur.jpg",  // Alleen de bestandsnaam
         owned: false
     },
+    {
+        id: 3,
+        name: "Charmander",
+        number: "003/165",
+        image: "charmander.jpg",  // Alleen de bestandsnaam
+        owned: false
+    }
     // Voeg hier meer kaarten toe...
 ];
 
@@ -25,8 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card');
 
+        // Dynamisch het pad naar de afbeelding samenstellen
+        const imagePath = `images/${card.image}`;  // Dit maakt gebruik van het lokale pad naar de images map
+
         cardElement.innerHTML = `
-            <img src="${card.image}" alt="${card.name} kaart">
+            <img src="${imagePath}" alt="${card.name} kaart">
             <h3>${card.name}</h3>
             <p>Kaart Nummer: ${card.number}</p>
             <label>
@@ -50,14 +60,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Laad collectie uit LocalStorage
-    if (localStorage.getItem('pokemonCollection')) {
-        const savedCards = JSON.parse(localStorage.getItem('pokemonCollection'));
-        savedCards.forEach(savedCard => {
-            const checkbox = document.querySelector(`input[data-id="${savedCard.id}"]`);
-            if (checkbox) {
-                checkbox.checked = savedCard.owned;
-            }
-        });
-    }
-});
+   
