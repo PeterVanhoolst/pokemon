@@ -851,7 +851,7 @@ const cards = [
         id: 122,
         name: "Mr. Mime",
         number: "122/165",
-        image: "Mr._Mime.jpg",
+        image: "Mr.-Mime.jpg",
         owned: false
     },
     {
