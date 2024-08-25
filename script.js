@@ -59,5 +59,15 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('pokemonCollection', JSON.stringify(cards));
         }
     });
-
+// Laad collectie uit LocalStorage
+    if (localStorage.getItem('pokemonCollection')) {
+        const savedCards = JSON.parse(localStorage.getItem('pokemonCollection'));
+        savedCards.forEach(savedCard => {
+            const checkbox = document.querySelector(`input[data-id="${savedCard.id}"]`);
+            if (checkbox) {
+                checkbox.checked = savedCard.owned;
+            }
+        });
+    }
+});
    
