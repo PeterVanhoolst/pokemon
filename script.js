@@ -15,7 +15,6 @@ const cards = [
         owned: false
     },
     {
-           {
         id: 3,
         name: "Venusaur",
         number: "003/165",
@@ -742,7 +741,7 @@ const cards = [
         number: "106/165",
         image: "hitmonlee.jpg",
         owned: false
-    }
+    },
     {
         id: 107,
         name: "Hitmonchan",
@@ -785,6 +784,7 @@ const cards = [
         image: "rhydon.jpg",
         owned: false
     },
+    {
         id: 113,
         name: "Chansey",
         number: "113/165",
@@ -1140,7 +1140,7 @@ const cards = [
         number: "151/165",
         image: "mew.jpg",
         owned: false
-    }
+    },
 {
         id: 152,
         name: "Dome Fossil",
@@ -1155,6 +1155,7 @@ const cards = [
         image: "helix_fossil.jpg",
         owned: false
     // Voeg hier meer kaarten toe...
+    },
 ];
 
 document.addEventListener('DOMContentLoaded', function() {
