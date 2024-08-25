@@ -11,1050 +11,1050 @@ const cards = [
         id: 2,
         name: "Ivysaur",
         number: "002/165",
-        image: "ivysaur.jpg",  // Alleen de bestandsnaam
+        image: "Ivysaur.jpg",  // Alleen de bestandsnaam
         owned: false
     },
     {
         id: 3,
         name: "Venusaur",
         number: "003/165",
-        image: "venusaur.jpg",
+        image: "Venusaur.jpg",
         owned: false
     },
     {
         id: 4,
         name: "Charmander",
         number: "004/165",
-        image: "charmander.jpg",
+        image: "Charmander.jpg",
         owned: false
     },
     {
         id: 5,
         name: "Charmeleon",
         number: "005/165",
-        image: "charmeleon.jpg",
+        image: "Charmeleon.jpg",
         owned: false
     },
     {
         id: 6,
         name: "Charizard",
         number: "006/165",
-        image: "charizard.jpg",
+        image: "Charizard.jpg",
         owned: false
     },
     {
         id: 7,
         name: "Squirtle",
         number: "007/165",
-        image: "squirtle.jpg",
+        image: "Squirtle.jpg",
         owned: false
     },
     {
         id: 8,
         name: "Wartortle",
         number: "008/165",
-        image: "wartortle.jpg",
+        image: "Wartortle.jpg",
         owned: false
     },
     {
         id: 9,
         name: "Blastoise",
         number: "009/165",
-        image: "blastoise.jpg",
+        image: "Blastoise.jpg",
         owned: false
     },
     {
         id: 10,
         name: "Caterpie",
         number: "010/165",
-        image: "caterpie.jpg",
+        image: "Caterpie.jpg",
         owned: false
     },
     {
         id: 11,
         name: "Metapod",
         number: "011/165",
-        image: "metapod.jpg",
+        image: "Metapod.jpg",
         owned: false
     },
     {
         id: 12,
         name: "Butterfree",
         number: "012/165",
-        image: "butterfree.jpg",
+        image: "Butterfree.jpg",
         owned: false
     },
     {
         id: 13,
         name: "Weedle",
         number: "013/165",
-        image: "weedle.jpg",
+        image: "Weedle.jpg",
         owned: false
     },
     {
         id: 14,
         name: "Kakuna",
         number: "014/165",
-        image: "kakuna.jpg",
+        image: "Kakuna.jpg",
         owned: false
     },
     {
         id: 15,
         name: "Beedrill",
         number: "015/165",
-        image: "beedrill.jpg",
+        image: "Beedrill.jpg",
         owned: false
     },
     {
         id: 16,
         name: "Pidgey",
         number: "016/165",
-        image: "pidgey.jpg",
+        image: "Pidgey.jpg",
         owned: false
     },
     {
         id: 17,
         name: "Pidgeotto",
         number: "017/165",
-        image: "pidgeotto.jpg",
+        image: "Pidgeotto.jpg",
         owned: false
     },
     {
         id: 18,
         name: "Pidgeot",
         number: "018/165",
-        image: "pidgeot.jpg",
+        image: "Pidgeot.jpg",
         owned: false
     },
     {
         id: 19,
         name: "Rattata",
         number: "019/165",
-        image: "rattata.jpg",
+        image: "Rattata.jpg",
         owned: false
     },
     {
         id: 20,
         name: "Raticate",
         number: "020/165",
-        image: "raticate.jpg",
+        image: "Raticate.jpg",
         owned: false
     },
     {
         id: 21,
         name: "Spearow",
         number: "021/165",
-        image: "spearow.jpg",
+        image: "Spearow.jpg",
         owned: false
     },
     {
         id: 22,
         name: "Fearow",
         number: "022/165",
-        image: "fearow.jpg",
+        image: "Fearow.jpg",
         owned: false
     },
     {
         id: 23,
         name: "Ekans",
         number: "023/165",
-        image: "ekans.jpg",
+        image: "Ekans.jpg",
         owned: false
     },
     {
         id: 24,
         name: "Arbok",
         number: "024/165",
-        image: "arbok.jpg",
+        image: "Arbok.jpg",
         owned: false
     },
     {
         id: 25,
         name: "Pikachu",
         number: "025/165",
-        image: "pikachu.jpg",
+        image: "Pikachu.jpg",
         owned: false
     },
     {
         id: 26,
         name: "Raichu",
         number: "026/165",
-        image: "raichu.jpg",
+        image: "Raichu.jpg",
         owned: false
     },
     {
         id: 27,
         name: "Sandshrew",
         number: "027/165",
-        image: "sandshrew.jpg",
+        image: "Sandshrew.jpg",
         owned: false
     },
     {
         id: 28,
         name: "Sandslash",
         number: "028/165",
-        image: "sandslash.jpg",
+        image: "Sandslash.jpg",
         owned: false
     },
     {
         id: 29,
         name: "Nidoran♀",
         number: "029/165",
-        image: "nidoran_f.jpg",
+        image: "Nidoran_f.jpg",
         owned: false
     },
     {
         id: 30,
         name: "Nidorina",
         number: "030/165",
-        image: "nidorina.jpg",
+        image: "Nidorina.jpg",
         owned: false
     },
     {
         id: 31,
         name: "Nidoqueen",
         number: "031/165",
-        image: "nidoqueen.jpg",
+        image: "Nidoqueen.jpg",
         owned: false
     },
     {
         id: 32,
         name: "Nidoran♂",
         number: "032/165",
-        image: "nidoran_m.jpg",
+        image: "Nidoran_m.jpg",
         owned: false
     },
     {
         id: 33,
         name: "Nidorino",
         number: "033/165",
-        image: "nidorino.jpg",
+        image: "Nidorino.jpg",
         owned: false
     },
     {
         id: 34,
         name: "Nidoking",
         number: "034/165",
-        image: "nidoking.jpg",
+        image: "Nidoking.jpg",
         owned: false
     },
     {
         id: 35,
         name: "Clefairy",
         number: "035/165",
-        image: "clefairy.jpg",
+        image: "Clefairy.jpg",
         owned: false
     },
     {
         id: 36,
         name: "Clefable",
         number: "036/165",
-        image: "clefable.jpg",
+        image: "Clefable.jpg",
         owned: false
     },
     {
         id: 37,
         name: "Vulpix",
         number: "037/165",
-        image: "vulpix.jpg",
+        image: "Vulpix.jpg",
         owned: false
     },
     {
         id: 38,
         name: "Ninetales",
         number: "038/165",
-        image: "ninetales.jpg",
+        image: "Ninetales.jpg",
         owned: false
     },
     {
         id: 39,
         name: "Jigglypuff",
         number: "039/165",
-        image: "jigglypuff.jpg",
+        image: "Jigglypuff.jpg",
         owned: false
     },
     {
         id: 40,
         name: "Wigglytuff",
         number: "040/165",
-        image: "wigglytuff.jpg",
+        image: "Wigglytuff.jpg",
         owned: false
     },
     {
         id: 41,
         name: "Zubat",
         number: "041/165",
-        image: "zubat.jpg",
+        image: "Zubat.jpg",
         owned: false
     },
     {
         id: 42,
         name: "Golbat",
         number: "042/165",
-        image: "golbat.jpg",
+        image: "Golbat.jpg",
         owned: false
     },
     {
         id: 43,
         name: "Oddish",
         number: "043/165",
-        image: "oddish.jpg",
+        image: "Oddish.jpg",
         owned: false
     },
     {
         id: 44,
         name: "Gloom",
         number: "044/165",
-        image: "gloom.jpg",
+        image: "Gloom.jpg",
         owned: false
     },
     {
         id: 45,
         name: "Vileplume",
         number: "045/165",
-        image: "vileplume.jpg",
+        image: "Vileplume.jpg",
         owned: false
     },
     {
         id: 46,
         name: "Paras",
         number: "046/165",
-        image: "paras.jpg",
+        image: "Paras.jpg",
         owned: false
     },
     {
         id: 47,
         name: "Parasect",
         number: "047/165",
-        image: "parasect.jpg",
+        image: "Parasect.jpg",
         owned: false
     },
     {
         id: 48,
         name: "Venonat",
         number: "048/165",
-        image: "venonat.jpg",
+        image: "Venonat.jpg",
         owned: false
     },
     {
         id: 49,
         name: "Venomoth",
         number: "049/165",
-        image: "venomoth.jpg",
+        image: "Venomoth.jpg",
         owned: false
     },
     {
         id: 50,
         name: "Diglett",
         number: "050/165",
-        image: "diglett.jpg",
+        image: "Diglett.jpg",
         owned: false
     },
     {
         id: 51,
         name: "Dugtrio",
         number: "051/165",
-        image: "dugtrio.jpg",
+        image: "Dugtrio.jpg",
         owned: false
     },
     {
         id: 52,
         name: "Meowth",
         number: "052/165",
-        image: "meowth.jpg",
+        image: "Meowth.jpg",
         owned: false
     },
     {
         id: 53,
         name: "Persian",
         number: "053/165",
-        image: "persian.jpg",
+        image: "Persian.jpg",
         owned: false
     },
     {
         id: 54,
         name: "Psyduck",
         number: "054/165",
-        image: "psyduck.jpg",
+        image: "Psyduck.jpg",
         owned: false
     },
     {
         id: 55,
         name: "Golduck",
         number: "055/165",
-        image: "golduck.jpg",
+        image: "Golduck.jpg",
         owned: false
     },
     {
         id: 56,
         name: "Mankey",
         number: "056/165",
-        image: "mankey.jpg",
+        image: "Mankey.jpg",
         owned: false
     },
     {
         id: 57,
         name: "Primeape",
         number: "057/165",
-        image: "primeape.jpg",
+        image: "Primeape.jpg",
         owned: false
     },
     {
         id: 58,
         name: "Growlithe",
         number: "058/165",
-        image: "growlithe.jpg",
+        image: "Growlithe.jpg",
         owned: false
     },
     {
         id: 59,
         name: "Arcanine",
         number: "059/165",
-        image: "arcanine.jpg",
+        image: "Arcanine.jpg",
         owned: false
     },
     {
         id: 60,
         name: "Poliwag",
         number: "060/165",
-        image: "poliwag.jpg",
+        image: "Poliwag.jpg",
         owned: false
     },
     {
         id: 61,
         name: "Poliwhirl",
         number: "061/165",
-        image: "poliwhirl.jpg",
+        image: "Poliwhirl.jpg",
         owned: false
     },
     {
         id: 62,
         name: "Poliwrath",
         number: "062/165",
-        image: "poliwrath.jpg",
+        image: "Poliwrath.jpg",
         owned: false
     },
         {
         id: 63,
         name: "Abra",
         number: "063/165",
-        image: "abra.jpg",
+        image: "Abra.jpg",
         owned: false
     },
     {
         id: 64,
         name: "Kadabra",
         number: "064/165",
-        image: "kadabra.jpg",
+        image: "Kadabra.jpg",
         owned: false
     },
     {
         id: 65,
         name: "Alakazam",
         number: "065/165",
-        image: "alakazam.jpg",
+        image: "Alakazam.jpg",
         owned: false
     },
     {
         id: 66,
         name: "Machop",
         number: "066/165",
-        image: "machop.jpg",
+        image: "Machop.jpg",
         owned: false
     },
     {
         id: 67,
         name: "Machoke",
         number: "067/165",
-        image: "machoke.jpg",
+        image: "Machoke.jpg",
         owned: false
     },
     {
         id: 68,
         name: "Machamp",
         number: "068/165",
-        image: "machamp.jpg",
+        image: "Machamp.jpg",
         owned: false
     },
     {
         id: 69,
         name: "Bellsprout",
         number: "069/165",
-        image: "bellsprout.jpg",
+        image: "Bellsprout.jpg",
         owned: false
     },
     {
         id: 70,
         name: "Weepinbell",
         number: "070/165",
-        image: "weepinbell.jpg",
+        image: "Weepinbell.jpg",
         owned: false
     },
     {
         id: 71,
         name: "Victreebel",
         number: "071/165",
-        image: "victreebel.jpg",
+        image: "Victreebel.jpg",
         owned: false
     },
     {
         id: 72,
         name: "Tentacool",
         number: "072/165",
-        image: "tentacool.jpg",
+        image: "Tentacool.jpg",
         owned: false
     },
     {
         id: 73,
         name: "Tentacruel",
         number: "073/165",
-        image: "tentacruel.jpg",
+        image: "Tentacruel.jpg",
         owned: false
     },
     {
         id: 74,
         name: "Geodude",
         number: "074/165",
-        image: "geodude.jpg",
+        image: "Geodude.jpg",
         owned: false
     },
     {
         id: 75,
         name: "Graveler",
         number: "075/165",
-        image: "graveler.jpg",
+        image: "Graveler.jpg",
         owned: false
     },
     {
         id: 76,
         name: "Golem",
         number: "076/165",
-        image: "golem.jpg",
+        image: "Golem.jpg",
         owned: false
     },
     {
         id: 77,
         name: "Ponyta",
         number: "077/165",
-        image: "ponyta.jpg",
+        image: "Ponyta.jpg",
         owned: false
     },
     {
         id: 78,
         name: "Rapidash",
         number: "078/165",
-        image: "rapidash.jpg",
+        image: "Rapidash.jpg",
         owned: false
     },
     {
         id: 79,
         name: "Slowpoke",
         number: "079/165",
-        image: "slowpoke.jpg",
+        image: "Slowpoke.jpg",
         owned: false
     },
     {
         id: 80,
         name: "Slowbro",
         number: "080/165",
-        image: "slowbro.jpg",
+        image: "Slowbro.jpg",
         owned: false
     },
     {
         id: 81,
         name: "Magnemite",
         number: "081/165",
-        image: "magnemite.jpg",
+        image: "Magnemite.jpg",
         owned: false
     },
     {
         id: 82,
         name: "Magneton",
         number: "082/165",
-        image: "magneton.jpg",
+        image: "Magneton.jpg",
         owned: false
     },
     {
         id: 83,
         name: "Farfetch'd",
         number: "083/165",
-        image: "farfetchd.jpg",
+        image: "Farfetchd.jpg",
         owned: false
     },
     {
         id: 84,
         name: "Doduo",
         number: "084/165",
-        image: "doduo.jpg",
+        image: "Doduo.jpg",
         owned: false
     },
     {
         id: 85,
         name: "Dodrio",
         number: "085/165",
-        image: "dodrio.jpg",
+        image: "Dodrio.jpg",
         owned: false
     },
     {
         id: 86,
         name: "Seel",
         number: "086/165",
-        image: "seel.jpg",
+        image: "Seel.jpg",
         owned: false
     },
     {
         id: 87,
         name: "Dewgong",
         number: "087/165",
-        image: "dewgong.jpg",
+        image: "Dewgong.jpg",
         owned: false
     },
     {
         id: 88,
         name: "Grimer",
         number: "088/165",
-        image: "grimer.jpg",
+        image: "Grimer.jpg",
         owned: false
     },
     {
         id: 89,
         name: "Muk",
         number: "089/165",
-        image: "muk.jpg",
+        image: "Muk.jpg",
         owned: false
     },
     {
         id: 90,
         name: "Shellder",
         number: "090/165",
-        image: "shellder.jpg",
+        image: "Shellder.jpg",
         owned: false
     },
     {
         id: 91,
         name: "Cloyster",
         number: "091/165",
-        image: "cloyster.jpg",
+        image: "Cloyster.jpg",
         owned: false
     },
     {
         id: 92,
         name: "Gastly",
         number: "092/165",
-        image: "gastly.jpg",
+        image: "Gastly.jpg",
         owned: false
     },
     {
         id: 93,
         name: "Haunter",
         number: "093/165",
-        image: "haunter.jpg",
+        image: "Haunter.jpg",
         owned: false
     },
     {
         id: 94,
         name: "Gengar",
         number: "094/165",
-        image: "gengar.jpg",
+        image: "Gengar.jpg",
         owned: false
     },
     {
         id: 95,
         name: "Onix",
         number: "095/165",
-        image: "onix.jpg",
+        image: "Onix.jpg",
         owned: false
     },
     {
         id: 96,
         name: "Drowzee",
         number: "096/165",
-        image: "drowzee.jpg",
+        image: "Drowzee.jpg",
         owned: false
     },
     {
         id: 97,
         name: "Hypno",
         number: "097/165",
-        image: "hypno.jpg",
+        image: "Hypno.jpg",
         owned: false
     },
     {
         id: 98,
         name: "Krabby",
         number: "098/165",
-        image: "krabby.jpg",
+        image: "Krabby.jpg",
         owned: false
     },
     {
         id: 99,
         name: "Kingler",
         number: "099/165",
-        image: "kingler.jpg",
+        image: "Kingler.jpg",
         owned: false
     },
     {
         id: 100,
         name: "Voltorb",
         number: "100/165",
-        image: "voltorb.jpg",
+        image: "Voltorb.jpg",
         owned: false
     },
     {
         id: 101,
         name: "Electrode",
         number: "101/165",
-        image: "electrode.jpg",
+        image: "Electrode.jpg",
         owned: false
     },
     {
         id: 102,
         name: "Exeggcute",
         number: "102/165",
-        image: "exeggcute.jpg",
+        image: "Exeggcute.jpg",
         owned: false
     },
     {
         id: 103,
         name: "Exeggutor",
         number: "103/165",
-        image: "exeggutor.jpg",
+        image: "Exeggutor.jpg",
         owned: false
     },
      {
         id: 104,
         name: "Cubone",
         number: "104/165",
-        image: "cubone.jpg",
+        image: "Cubone.jpg",
         owned: false
     },
     {
         id: 105,
         name: "Marowak",
         number: "105/165",
-        image: "marowak.jpg",
+        image: "Marowak.jpg",
         owned: false
     },
     {
         id: 106,
         name: "Hitmonlee",
         number: "106/165",
-        image: "hitmonlee.jpg",
+        image: "Hitmonlee.jpg",
         owned: false
     },
     {
         id: 107,
         name: "Hitmonchan",
         number: "107/165",
-        image: "hitmonchan.jpg",
+        image: "Hitmonchan.jpg",
         owned: false
     },
     {
         id: 108,
         name: "Lickitung",
         number: "108/165",
-        image: "lickitung.jpg",
+        image: "Lickitung.jpg",
         owned: false
     },
     {
         id: 109,
         name: "Koffing",
         number: "109/165",
-        image: "koffing.jpg",
+        image: "Koffing.jpg",
         owned: false
     },
     {
         id: 110,
         name: "Weezing",
         number: "110/165",
-        image: "weezing.jpg",
+        image: "Weezing.jpg",
         owned: false
     },
     {
         id: 111,
         name: "Rhyhorn",
         number: "111/165",
-        image: "rhyhorn.jpg",
+        image: "Rhyhorn.jpg",
         owned: false
     },
     {
         id: 112,
         name: "Rhydon",
         number: "112/165",
-        image: "rhydon.jpg",
+        image: "Rhydon.jpg",
         owned: false
     },
     {
         id: 113,
         name: "Chansey",
         number: "113/165",
-        image: "chansey.jpg",
+        image: "Chansey.jpg",
         owned: false
     },
     {
         id: 114,
         name: "Tangela",
         number: "114/165",
-        image: "tangela.jpg",
+        image: "Tangela.jpg",
         owned: false
     },
     {
         id: 115,
         name: "Kangaskhan",
         number: "115/165",
-        image: "kangaskhan.jpg",
+        image: "Kangaskhan.jpg",
         owned: false
     },
     {
         id: 116,
         name: "Horsea",
         number: "116/165",
-        image: "horsea.jpg",
+        image: "Horsea.jpg",
         owned: false
     },
     {
         id: 117,
         name: "Seadra",
         number: "117/165",
-        image: "seadra.jpg",
+        image: "Seadra.jpg",
         owned: false
     },
     {
         id: 118,
         name: "Goldeen",
         number: "118/165",
-        image: "goldeen.jpg",
+        image: "Goldeen.jpg",
         owned: false
     },
     {
         id: 119,
         name: "Seaking",
         number: "119/165",
-        image: "seaking.jpg",
+        image: "Seaking.jpg",
         owned: false
     },
     {
         id: 120,
         name: "Staryu",
         number: "120/165",
-        image: "staryu.jpg",
+        image: "Staryu.jpg",
         owned: false
     },
     {
         id: 121,
         name: "Starmie",
         number: "121/165",
-        image: "starmie.jpg",
+        image: "Starmie.jpg",
         owned: false
     },
     {
         id: 122,
         name: "Mr. Mime",
         number: "122/165",
-        image: "mr_mime.jpg",
+        image: "Mr._Mime.jpg",
         owned: false
     },
     {
         id: 123,
         name: "Scyther",
         number: "123/165",
-        image: "scyther.jpg",
+        image: "Scyther.jpg",
         owned: false
     },
     {
         id: 124,
         name: "Jynx",
         number: "124/165",
-        image: "jynx.jpg",
+        image: "Jynx.jpg",
         owned: false
     },
     {
         id: 125,
         name: "Electabuzz",
         number: "125/165",
-        image: "electabuzz.jpg",
+        image: "Electabuzz.jpg",
         owned: false
     },
     {
         id: 126,
         name: "Magmar",
         number: "126/165",
-        image: "magmar.jpg",
+        image: "Magmar.jpg",
         owned: false
     },
     {
         id: 127,
         name: "Pinsir",
         number: "127/165",
-        image: "pinsir.jpg",
+        image: "Pinsir.jpg",
         owned: false
     },
     {
         id: 128,
         name: "Tauros",
         number: "128/165",
-        image: "tauros.jpg",
+        image: "Tauros.jpg",
         owned: false
     },
     {
         id: 129,
         name: "Magikarp",
         number: "129/165",
-        image: "magikarp.jpg",
+        image: "Magikarp.jpg",
         owned: false
     },
     {
         id: 130,
         name: "Gyarados",
         number: "130/165",
-        image: "gyarados.jpg",
+        image: "Gyarados.jpg",
         owned: false
     },
     {
         id: 131,
         name: "Lapras",
         number: "131/165",
-        image: "lapras.jpg",
+        image: "Lapras.jpg",
         owned: false
     },
     {
         id: 132,
         name: "Ditto",
         number: "132/165",
-        image: "ditto.jpg",
+        image: "Ditto.jpg",
         owned: false
     },
     {
         id: 133,
         name: "Eevee",
         number: "133/165",
-        image: "eevee.jpg",
+        image: "Eevee.jpg",
         owned: false
     },
     {
         id: 134,
         name: "Vaporeon",
         number: "134/165",
-        image: "vaporeon.jpg",
+        image: "Vaporeon.jpg",
         owned: false
     },
     {
         id: 135,
         name: "Jolteon",
         number: "135/165",
-        image: "jolteon.jpg",
+        image: "Jolteon.jpg",
         owned: false
     },
     {
         id: 136,
         name: "Flareon",
         number: "136/165",
-        image: "flareon.jpg",
+        image: "Flareon.jpg",
         owned: false
     },
     {
         id: 137,
         name: "Porygon",
         number: "137/165",
-        image: "porygon.jpg",
+        image: "Porygon.jpg",
         owned: false
     },
     {
         id: 138,
         name: "Omanyte",
         number: "138/165",
-        image: "omanyte.jpg",
+        image: "Omanyte.jpg",
         owned: false
     },
     {
         id: 139,
         name: "Omastar",
         number: "139/165",
-        image: "omastar.jpg",
+        image: "Omastar.jpg",
         owned: false
     },
     {
         id: 140,
         name: "Kabuto",
         number: "140/165",
-        image: "kabuto.jpg",
+        image: "Kabuto.jpg",
         owned: false
     },
     {
         id: 141,
         name: "Kabutops",
         number: "141/165",
-        image: "kabutops.jpg",
+        image: "Kabutops.jpg",
         owned: false
     },
     {
         id: 142,
         name: "Aerodactyl",
         number: "142/165",
-        image: "aerodactyl.jpg",
+        image: "Aerodactyl.jpg",
         owned: false
     },
     {
         id: 143,
         name: "Snorlax",
         number: "143/165",
-        image: "snorlax.jpg",
+        image: "Snorlax.jpg",
         owned: false
     },
     {
         id: 144,
         name: "Articuno",
         number: "144/165",
-        image: "articuno.jpg",
+        image: "Articuno.jpg",
         owned: false
     },
     {
         id: 145,
         name: "Zapdos",
         number: "145/165",
-        image: "zapdos.jpg",
+        image: "Zapdos.jpg",
         owned: false
     },
     {
         id: 146,
         name: "Moltres",
         number: "146/165",
-        image: "moltres.jpg",
+        image: "Moltres.jpg",
         owned: false
     },
 {
         id: 147,
         name: "Dratini",
         number: "147/165",
-        image: "dratini.jpg",
+        image: "Dratini.jpg",
         owned: false
     },
     {
         id: 148,
         name: "Dragonair",
         number: "148/165",
-        image: "dragonair.jpg",
+        image: "Dragonair.jpg",
         owned: false
     },
     {
         id: 149,
         name: "Dragonite",
         number: "149/165",
-        image: "dragonite.jpg",
+        image: "Dragonite.jpg",
         owned: false
     },
     {
         id: 150,
         name: "Mewtwo",
         number: "150/165",
-        image: "mewtwo.jpg",
+        image: "Mewtwo.jpg",
         owned: false
     },
     {
         id: 151,
         name: "Mew",
         number: "151/165",
-        image: "mew.jpg",
+        image: "Mew.jpg",
         owned: false
     },
 {
