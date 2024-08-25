@@ -1,0 +1,63 @@
+// Voorbeeld kaarten data
+const cards = [
+    {
+        id: 1,
+        name: "Bulbasaur",
+        number: "001/165",
+        image: "path_to_bulbasaur_image.jpg",
+        owned: false
+    },
+    {
+        id: 2,
+        name: "Ivysaur",
+        number: "002/165",
+        image: "path_to_ivysaur_image.jpg",
+        owned: false
+    },
+    // Voeg hier meer kaarten toe...
+];
+
+document.addEventListener('DOMContentLoaded', function() {
+    const cardsContainer = document.querySelector('.cards-container');
+    
+    // Render kaarten
+    cards.forEach(card => {
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card');
+
+        cardElement.innerHTML = `
+            <img src="${card.image}" alt="${card.name} kaart">
+            <h3>${card.name}</h3>
+            <p>Kaart Nummer: ${card.number}</p>
+            <label>
+                <input type="checkbox" ${card.owned ? 'checked' : ''} data-id="${card.id}">
+                In mijn collectie
+            </label>
+        `;
+        
+        cardsContainer.appendChild(cardElement);
+    });
+
+    // Event listener voor checkboxes
+    cardsContainer.addEventListener('change', function(event) {
+        if (event.target.matches('input[type="checkbox"]')) {
+            const cardId = event.target.getAttribute('data-id');
+            const card = cards.find(c => c.id == cardId);
+            card.owned = event.target.checked;
+
+            // Hier kun je de status opslaan in lokale opslag (LocalStorage)
+            localStorage.setItem('pokemonCollection', JSON.stringify(cards));
+        }
+    });
+
+    // Laad collectie uit LocalStorage
+    if (localStorage.getItem('pokemonCollection')) {
+        const savedCards = JSON.parse(localStorage.getItem('pokemonCollection'));
+        savedCards.forEach(savedCard => {
+            const checkbox = document.querySelector(`input[data-id="${savedCard.id}"]`);
+            if (checkbox) {
+                checkbox.checked = savedCard.owned;
+            }
+        });
+    }
+});
